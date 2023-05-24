@@ -18,7 +18,7 @@ import ShareService from '../services/share/ShareService';
 
 export default class Resource extends BaseItem {
 
-	public static IMAGE_MAX_DIMENSION = 1920;
+	public static IMAGE_MAX_DIMENSION = 3840;
 
 	public static FETCH_STATUS_IDLE = 0;
 	public static FETCH_STATUS_STARTED = 1;
